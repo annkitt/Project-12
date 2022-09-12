@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+    background-color: #636c79;
+  
+}
+
+.navbar{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:100px;
+
+}
+.logo img{
+    width: 100px;
+}
+.navbar .list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+    margin-left:250px;
+    color: #cccccc;
+}
+.navbar .btn{
+    margin-right: 80px;
+    padding: 8px 35px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #808080;
+    align-items:center;
+    cursor: pointer;
+}
+
+
+.home{
+    display: flex;
+    margin: 80px 0px 0px 40px;
+    margin-bottom: 105px;
+  
+  
+}
+.home-left img{
+    margin-left:100px;
+    width: 490px;
+    height: 480px;
+    border-radius: 3px; 
+}
+.home-right{
+    margin:30px 0px 0px 120px;
+}
+.home-right h1{
+    color: #ffffff;
+    font-family: raleway;
+    font-size:65px;
+}
+.home-right p{
+    color: #cccccc;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.home-right .email{
+    position: relative;
+    margin-top: 30px;
+}
+.home-right .email input[type="email"]{
+    padding: 20px 150px 20px 20px;
+    width: 23rem; 
+}
+.home-right .email input[type="email"]::placeholder {
+    font-size: 16px;
+    color: #8c8c8c;
+}
+.home-right .email button {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.home-right .email .btn{
+    margin-top: 2px;
+    padding: 10px 30px;
+    background-color: #8bb7a2;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.about{
+    position: absolute;
+    left: 0;
+    right:0;
+    background-color: #ffffff;
+}    
+.about h2{
+    margin-top:75px;
+    margin-left:60px;
+    font-size: 40px;
+    font-family: "Raleway";
+    text-align: center;
+    padding-top: -140px;
+}
+.about-stats{
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.about-stats .about-stat h4{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.about .image{
+    max-width: 78rem;
+    height: 550px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+.about img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+
+
+.page-heading{
+    margin-top: 980px;
+    right: 0;
+    left: 0;
+    padding-top:90px ;
+    background-color: #ffffff;
+    font-family: "Raleway";
+   
+}
+.page-heading h2{
+    text-align: center;
+    font-size: 45px;
+    margin-left: 60px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+}
+.page-left{
+    margin-right: 100px;
+    margin-top: 150px;
+}
+.page-left h4{
+    font-size: 35px;
+}
+.page-left p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #8c8c8c;
+}
+.page-left .btn{
+    margin-top: 30px;
+    padding: 15px 35px;
+    color: #ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.page-right img{
+    width: 450px;  
+    margin-left: 50px; 
+    height: 400px;
+    margin-top: 60px;
+}
+
+.dg{
+    display: flex;
+    justify-content: center;
+}
+
+.dg-left img{
+    width: 380px;  
+    margin-right: 180px; 
+    height: 410px;
+    margin-top: 80px;
+}
+.dg-right{
+    margin-top: 140px;
+    margin-right: 80px;
+}
+.dg-right h4{
+    font-size: 35px;
+}
+.dg-right p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #8c8c8c;
+}
+.dg-right .btn{
+    margin-top: 30px;
+    padding: 15px 35px;
+    color: #ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.ppl{
+    justify-content: center;
+    display: flex;
+}
+.ppl-left{
+    margin-right: 170px;
+    margin-top: 180px;
+}
+.ppl-left h4{
+    font-size: 35px;
+}
+.ppl-left p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #8c8c8c;
+}
+.ppl-left .btn{
+    margin-top: 30px;
+    padding: 15px 35px;
+    color: #ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ppl-right img{
+    margin-right: 80px;
+    width: 380px;  
+    height: 410px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+
+
+.team{
+    right: 0;
+    left: 0;
+    padding-top: 190px;
+    background-color: #ffffff;
+    font-family: "Raleway";
+    padding-left: 30px;
+}
+.team-headline{
+    display: flex;
+    justify-content: center;
+}
+.team-headline h1{
+    font-size: 35px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+}
+.team-headline p{
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #8c8c8c;
+    font-size: 18px;
+}
+.team-info{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+}   
+
+.team-card img{
+    width:300px;
+}
+.team-card h4{
+    margin-top: 20px;
+} 
+.team-card p{
+    margin-top: 30px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #8c8c8c;
+}
+.team-btn{
+    text-align: center;
+    padding-bottom: 90px;
+}
+.team-btn .btn{
+    margin-top: 60px;
+    font-size: 16px;
+    padding: 16px 45px;
+    color: #ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Raleway";
+}
+
+
+
+.footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #10181d;
+}
+.footer-logo{
+    display: flex; 
+    margin-top: 40px;
+    margin-left: 140px;
+    
+}
+.footer-logo ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-left: 820px;
+}
+.footer-logo ul li span {
+    background-color: rgba(255, 255, 255, 0.093);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 500px;
+    color: #ffffff;
+}
+.footer .hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.093);
+    width: 81%;
+    display: block;
+    margin-top: 60px;
+    margin-left: 140px;
+}
+.footer-navbar{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.navbar-list{
+    line-height: 40px;
+}
+.navbar-list h4{
+    color: #ffffff;
+    font-size: 20px;
+}
+.navbar-list ul li{
+    color:#8c8c8c;
+    list-style: none;
+    cursor: pointer;
+}
