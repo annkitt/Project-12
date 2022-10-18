@@ -39,7 +39,20 @@ body{
     align-items:center;
     cursor: pointer;
 }
-
+@media screen and (max-width:1200px) {
+    .navbar .btn{
+        margin-right: -160px;
+    }
+}
+@media screen and (max-width:1000px)  {
+    .navbar .list{
+        margin-right: -200px;
+    }
+    .navbar .btn{
+        position: absolute;
+        right: -200px;
+    }
+}
 
 .home{
     display: flex;
@@ -132,6 +145,20 @@ body{
     object-fit: cover;
     object-position: top;
 }
+@media screen and (max-width:1215px)and (min-width:700px){
+    .about{
+        position: absolute;
+        right: -620px;
+    }
+    .about .image{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .about .image{
+        margin-left: 100px;
+    }
+}
 
 
 
@@ -182,6 +209,11 @@ body{
     margin-left: 50px; 
     height: 400px;
     margin-top: 60px;
+}
+@media screen and (max-width:1219px) and (min-width:700px){
+    .page-heading{
+        margin-right: -620px;
+    }
 }
 
 .dg{
@@ -312,7 +344,11 @@ body{
     cursor: pointer;
     font-family: "Raleway";
 }
-
+@media screen and (max-width:1205px) and (min-width:700px){
+    .team{
+        margin-right: -620px;
+    }
+}
 
 
 .footer{
@@ -361,6 +397,12 @@ body{
     margin-top: 80px;
     margin-bottom: 80px;
 }
+@media screen and (max-width:1215px) and (min-width:700px) {
+    .footer{
+        margin-right: -620px;
+    }
+}
+
 
 .navbar-list{
     line-height: 40px;
