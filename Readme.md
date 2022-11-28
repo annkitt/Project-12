@@ -7,7 +7,7 @@
 ![Html ,Css](https://img.shields.io/badge/html-%20Css-yellowgreen)
 ![Hitesh Choudhary](https://img.shields.io/badge/Hitesh-Choudhary-lightgrey)
 
-## Project 12 [Live link]()
+## Project 12 [Live link](https://businesslandingpagee.netlify.app/)
 
 - Skills Gained in this project 
     - Learned to create complex footer section.
@@ -18,8 +18,4 @@
 
 ### ScreenShot
 ![Desktop](./screenshot/120.png)
-![Desktop](./screenshot/12o.png)
-![Desktop](./screenshot/12t.png)
-![Desktop](./screenshot/12th.png)
-![Desktop](./screenshot/12f.png)
-![Desktop](./screenshot/12fv.png)
+)
